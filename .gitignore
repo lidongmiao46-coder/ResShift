@@ -1,28 +1,12 @@
-# Python
 __pycache__/
 *.py[cod]
-
-# Logs and temporary files
 *.log
-*.xltd
-*.cfg
-.DS_Store
-
-# Model weights
-weights/
-*.pt
-*.pt
-*.ckpt
-*.safetensors
-# Generated results
 results/
 [输出结果文件夹]/
-
-# Archives
+weights/*.pth
 *.tar.gz
 *.zip
-
-# Local datasets and test images
-testdata/
-
-
+*.xltd
+*.cfg
+.vscode/
+.idea/
